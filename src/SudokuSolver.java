@@ -10,8 +10,6 @@ public class SudokuSolver {
         SingleOptionStrategy singleOptionStrategy = new SingleOptionStrategy();
         SudokuBoardGenerator sudokuBoardGenerator = new SudokuBoardGenerator();
 
-
-
         int[][] board = sudokuBoardGenerator.generateSudokuBoard(EASY_DIFFICULTY);
         Util util = new Util();
 
